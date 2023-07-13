@@ -1,0 +1,1 @@
+# Favespots.github.io
