@@ -1,0 +1,449 @@
+/* styles.css */
+body {
+  font-family: "Century Gothic", 'bold';
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a7d0d9;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo as needed */
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right; /* Align the tabs to the right */
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the spacing between the tabs */
+}
+
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 50px; /* Use a larger value for a smoother edge */
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #a0b58a;
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin for the first tab */
+}
+
+nav ul li:nth-child(1) a {
+  background-color: #dff5ce;
+}
+
+
+nav ul li:nth-child(2) a {
+  background-color: #dff5ce;
+}
+
+
+nav ul li:nth-child(3) a {
+  background-color: #dff5ce;
+}
+
+
+nav ul li:nth-child(4) a {
+  background-color: #dff5ce; /* Brown */
+}
+
+
+nav ul li:nth-child(5) a {
+  background-color: #dff5ce; /* Green */
+}
+
+
+nav ul li:nth-child(6) a {
+  background-color: #dff5ce; /* Brown */
+}
+
+
+nav ul li a:hover {
+  background-color: #a0b58a;
+}
+
+.tabs li {
+  background-color: #ebebeb;
+  /* Set the desired background color for the tabs */
+  border-radius: 20px; /* Add rounded corners */
+}
+
+
+.hero {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 140px 0;
+}
+
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+
+.contact-us {
+  background-color: #fff;
+  padding: 50px;
+}
+
+
+.social-media img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+
+.fashion-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.fashion-item {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+
+.fashion-item:hover {
+  transform: scale(1.05);
+}
+
+
+.fashion-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.fashion-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+
+.fashion-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.food-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff; /* Set text color to white */
+}
+
+.food-section h3 {
+  width: 100%;
+  text-align: center;
+  font-family: "Century Gothic", Arial, sans-serif; /* Change font family */
+}
+
+.food-item {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color:transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.food-item:hover {
+  transform: scale(1.05);
+}
+
+.food-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.food-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.food-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: underline; /* Add underline to the link */
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+.tabs li {
+  background-color: #ebebeb;
+  /* Set the desired background color for the tabs */
+}
+
+.tabs li a {
+  color: #000000;
+  /* Set the desired text color for the tabs */
+}
+
+.tabs li a:hover {
+  background-color: #d6d6d6;
+  /* Set the desired background color for the tabs when hovered */
+}
+
+#food {
+  background-image: url('TRYFOOD.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+  color: #fff; /* Set the text color to white */
+  padding: 130px;
+}
+
+
+#fashion {
+  background-image: url('fash.jpg');
+  background-size: cover;
+  padding: 130px;
+}
+
+#fashion .fashion-item p {
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#fashion h2 {
+  font-size: 32px;
+}
+
+#fashion p {
+  font-size: 20px;
+}
+
+#fashion .fashion-item p {
+  font-size: 14px;
+}
+
+#fashion .fashion-item a {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+#luxury {
+  background-image: url('WATCH.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 130px;
+}
+
+#luxury h2 {
+  font-size: 32px; /* Increase the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a text shadow for visibility */
+}
+
+#luxury p {
+  font-size: 20px; /* Increase the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a text shadow for visibility */
+}
+
+#luxury .fashion-item p {
+  color: #fff;
+  font-size: 14px; /* Increase the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a text shadow for visibility */
+}
+#luxury .fashion-item a {
+  color: #fff; /* Set the text color to white */
+  text-decoration: underline; /* Add underline to the link */
+}
+
+
+
+
+#entertainment {
+  background-image: url('enterbg.jpg');
+  background-size: cover;
+}
+
+
+#services {
+  background-image: url('photo-1600948836101-f9ffda59d250.jpg');
+  background-size: cover;
+  color: #fff; /* Set the text color to white */
+  padding: 130px;
+}
+
+#services h2 {
+  color: #fff; /* Set the heading font color to white */
+}
+
+#services p {
+  color: #ddd; /* Set the paragraph font color to a lighter shade of white */
+}
+
+#services .fashion-item p {
+  color: #fff; /* Set the fashion item paragraph font color to white */
+}
+
+#services .fashion-item a {
+  color: #fff; /* Set the fashion item link font color to white */
+}
+
+#entertainment {
+  background-image: url('arcade-aesthetic-background-4v7m9tdsqvwphcwo.jpg');
+  background-size: cover;
+  color: #fff; /* Set the text color to white */
+  padding: 130px;
+}
+
+#entertainment h2 {
+  color: #fff; /* Set the heading font color to white */
+}
+
+#entertainment p {
+  color: #ddd; /* Set the paragraph font color to a lighter shade of white */
+}
+
+#entertainment .fashion-item p {
+  color: #fff; /* Set the fashion item paragraph font color to white */
+}
+
+#entertainment .fashion-item a {
+  color: #fff; /* Set the fashion item link font color to white */
+}
+
+/* Additional Styles for Home Page */
+/* Additional Styles and Colors for Home Section */
+#home {
+  background-color: #b6b6b6;
+  padding: 100px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#home .subpage h2 {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#home .subpage p {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+#home .subpage .subpage-link {
+  display: inline-block;
+  background-color: #738262;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#home .subpage .subpage-link:hover {
+  background-color: #7e984d;
+}
+
+/* Additional Color Options */
+#home .hero {
+  background-color: #9b9b9b;
+}
+
+#home .about-us {
+  background-color: #f2f2f2;
+}
+
+#home .contact-us {
+  background-color: #f2f2f2;
+}
+
+.logo a {
+  color: #333;
+}
+
+nav ul li a {
+  color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #3f3e3e;
+  color: #fff;
+}
+
+
+
+.about-us {
+  background-color: #fff;
+  padding: 100px;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
